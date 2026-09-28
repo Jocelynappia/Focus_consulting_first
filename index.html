@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Focus’Consulting accompagne les organisations dans leurs études, l’analyse de données et la transformation numérique.">
+  <title>Focus’Consulting — De la donnée à l’action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .service.accent{padding-bottom:85px}
+    .service-grid .service:nth-child(even){background:var(--cyan);border-color:var(--cyan)}
+    .service-grid .service:nth-child(even) .service-icon{background:var(--ink);color:#fff}
+    .service-grid .service:nth-child(even) p{color:#214457}
+    .service-grid .service:nth-child(even) li{background:#fff}
+    .contact-copy>p{color:#4d6673;max-width:500px}
+    .contact-details{display:grid;gap:14px;margin-top:38px}
+    .contact-details a{display:block;padding:16px 0;border-top:1px solid #9bc9cf}
+    .contact-details small{display:block;color:#40717b;text-transform:uppercase;letter-spacing:.13em;font-weight:700}
+    .contact-details strong{font:700 1.08rem Manrope;color:var(--ink);overflow-wrap:anywhere}
+    @media(max-width:800px){.service.accent{padding-bottom:85px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#accueil" aria-label="Accueil Focus’Consulting"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Focus’<b>Consulting</b></span></a>
+    <button class="menu" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+    <nav aria-label="Navigation principale">
+      <a href="#expertises">Expertises</a>
+      <a href="#methode">Méthode</a>
+      <a href="#apropos">À propos</a>
+      <a class="nav-cta" href="#contact">Parlons de votre projet</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Business · Data · IA · Transformation numérique</p>
+        <h1>Vos données ont des choses à <em>dire.</em><br>Faisons-les agir.</h1>
+        <p class="lead">Focus’Consulting transforme vos questions complexes en analyses claires, outils de pilotage utiles et décisions concrètes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Échangeons sur votre besoin <span>↗</span></a>
+          <a class="text-link" href="#expertises">Découvrir nos expertises <span>↓</span></a>
+        </div>
+      </div>
+      <div class="signal-card reveal" aria-label="Notre démarche en trois étapes">
+        <div class="signal-head"><span>De la question à la décision</span><b>01—03</b></div>
+        <div class="signal-orbit"><span>FOCUS</span><div class="pulse"></div></div>
+        <div class="signal-steps">
+          <span><b>01</b> Comprendre</span><span><b>02</b> Analyser</span><span><b>03</b> Agir</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="statement reveal">
+      <p>Nous aidons les entreprises, associations et acteurs publics à mieux comprendre leur activité, mesurer leur impact et piloter leur transformation.</p>
+    </section>
+
+    <section class="expertises" id="expertises">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Nos expertises</p>
+        <h2>Voir juste.<br><span>Décider mieux.</span></h2>
+      </div>
+      <div class="service-grid">
+        <article class="service reveal"><span class="service-num">01</span><div class="service-icon">⌁</div><h3>Études & enquêtes</h3><p>Conception de questionnaires, collecte, traitement et restitution pour faire émerger une lecture fiable des besoins et des usages.</p><ul><li>Études quantitatives et qualitatives</li><li>Enquêtes de satisfaction</li><li>Diagnostics territoriaux</li></ul></article>
+        <article class="service reveal"><span class="service-num">02</span><div class="service-icon">▥</div><h3>Data & pilotage</h3><p>Des données dispersées aux indicateurs qui comptent : nous créons des analyses accessibles et des tableaux de bord orientés décision.</p><ul><li>Analyse statistique</li><li>Tableaux de bord Power BI</li><li>Indicateurs de performance</li></ul></article>
+        <article class="service reveal"><span class="service-num">03</span><div class="service-icon">◇</div><h3>Business Analyse</h3><p>Nous traduisons les enjeux métiers en besoins précis afin de rapprocher la stratégie, les processus et les solutions à mettre en œuvre.</p><ul><li>Recueil et analyse des besoins</li><li>Cartographie des processus</li><li>Spécifications fonctionnelles</li></ul></article>
+        <article class="service reveal"><span class="service-num">04</span><div class="service-icon">✦</div><h3>Intégration de l’IA</h3><p>Nous identifions les usages pertinents de l’intelligence artificielle et accompagnons leur intégration de manière progressive, utile et maîtrisée.</p><ul><li>Diagnostic des opportunités IA</li><li>Automatisation des tâches</li><li>Outils d’aide à la décision</li></ul></article>
+        <article class="service reveal"><span class="service-num">05</span><div class="service-icon">↗</div><h3>Transformation numérique</h3><p>Une approche pragmatique pour simplifier les processus, structurer les besoins et déployer des outils adaptés aux réalités du terrain.</p><ul><li>Diagnostic numérique</li><li>Optimisation des processus</li><li>Choix et déploiement d’outils</li></ul></article>
+        <article class="service accent reveal"><span class="service-num">06</span><div class="service-icon">◎</div><h3>Accompagnement au changement</h3><p>Nous préparons les équipes, facilitons l’appropriation des nouveaux outils et sécurisons chaque étape de la transformation.</p><ul><li>Analyse des impacts</li><li>Communication et formation</li><li>Suivi de l’adoption</li></ul><a href="#contact">Définir votre besoin <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="method" id="methode">
+      <div class="method-intro reveal"><p class="eyebrow">Notre méthode</p><h2>Comprendre.<br>Analyser. <span>Agir.</span></h2><p>Pas de solution toute faite. Chaque mission commence par l’écoute, se construit avec vos équipes et se termine par des livrables directement mobilisables.</p></div>
+      <div class="method-list">
+        <article class="reveal"><b>01</b><div><h3>Comprendre votre réalité</h3><p>Clarifier le besoin, les usages, les contraintes et les objectifs avec les personnes concernées.</p></div></article>
+        <article class="reveal"><b>02</b><div><h3>Analyser avec rigueur</h3><p>Croiser les données, rendre visibles les enseignements et sécuriser leur interprétation.</p></div></article>
+        <article class="reveal"><b>03</b><div><h3>Transformer en actions</h3><p>Prioriser des recommandations réalistes et transmettre les outils nécessaires à leur mise en œuvre.</p></div></article>
+      </div>
+    </section>
+
+    <section class="about" id="apropos">
+      <div class="about-visual reveal"><span>Des analyses<br>qui parlent.</span><div class="rings"></div></div>
+      <div class="about-copy reveal"><p class="eyebrow">Focus’Consulting</p><h2>La rigueur de l’analyse.<br><span>La clarté du conseil.</span></h2><p>Cabinet de conseil indépendant, Focus’Consulting réunit des expertises en sciences sociales, études, analyse de données, informatique et systèmes d’information. Cette approche pluridisciplinaire permet de rapprocher les besoins métiers, les solutions technologiques et la stratégie de la réalité du terrain.</p><p>Notre conviction : une donnée ou un outil numérique n’a de valeur que lorsqu’il est compris, utile et pleinement intégré aux pratiques de l’organisation.</p><div class="values"><span><b>01</b> Écoute</span><span><b>02</b> Fiabilité</span><span><b>03</b> Utilité</span></div></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-copy reveal"><p class="eyebrow">Votre projet</p><h2>Une question à éclairer ?<br><span>Mettons-la au point.</span></h2><p>Quelques lignes suffisent pour poser le contexte. Nous reviendrons vers vous pour préciser le besoin et envisager la meilleure approche.</p><div class="contact-details"><a href="mailto:focusconsultingfirst@gmail.com"><small>E-mail</small><strong>focusconsultingfirst@gmail.com</strong></a><a href="tel:+33767523431"><small>Téléphone</small><strong>+33 7 67 52 34 31</strong></a></div></div>
+      <form class="project-form reveal" id="project-form">
+        <label>Votre nom<input name="name" required placeholder="Nom et prénom"></label>
+        <label>Votre adresse e-mail<input name="email" required type="email" placeholder="vous@organisation.fr"></label>
+        <label>Votre besoin<select name="need" required><option value="">Sélectionner une expertise</option><option>Études & enquêtes</option><option>Data & pilotage</option><option>Business Analyse</option><option>Intégration de l’IA</option><option>Transformation numérique</option><option>Accompagnement au changement</option></select></label>
+        <label>Parlez-nous de votre projet<textarea name="message" required rows="4" placeholder="Contexte, objectif, échéance…"></textarea></label>
+        <button class="button primary" type="submit">Préparer ma demande <span>↗</span></button>
+        <p class="form-note" id="form-note">Votre message sera préparé afin que vous puissiez l’envoyer depuis votre messagerie.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#accueil"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Focus’<b>Consulting</b></span></a><p>Transformer les données en décisions,<br>les décisions en actions.</p><div><a href="#expertises">Expertises</a><a href="#methode">Méthode</a><a href="#apropos">À propos</a><a href="mailto:focusconsultingfirst@gmail.com">focusconsultingfirst@gmail.com</a><a href="tel:+33767523431">+33 7 67 52 34 31</a></div><small>© <span id="year"></span> Focus’Consulting</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
